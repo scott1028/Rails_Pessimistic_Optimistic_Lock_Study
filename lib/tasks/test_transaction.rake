@@ -1,6 +1,6 @@
 # encoding:utf-8
 # Pressimistic Lock 範例
-# 必須仰賴資料庫支援(SQLite並沒有支援 Pressimistic Lock 機制)
+# 必須仰賴資料庫支援(SQLite並沒有支援 Pessimistic Lock 機制)
 # 此範例使用 PostgreSQL 設計
 
 def job(name)
